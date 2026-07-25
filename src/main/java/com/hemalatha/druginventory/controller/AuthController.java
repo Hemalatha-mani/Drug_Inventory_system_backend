@@ -12,7 +12,8 @@ import com.hemalatha.druginventory.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://drug-inventory-system-frontend-3.onrender.com")
 public class AuthController {
 
     @Autowired
